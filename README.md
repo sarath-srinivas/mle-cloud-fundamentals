@@ -43,6 +43,8 @@ Then the flask app will be served in port 80 in the ip address of the vm.
 
 ## Billing info for resources created
 
+Cost filtered with tags.
+
 ![billing](billing_info_sarath.png)
 
 
