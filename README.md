@@ -35,9 +35,14 @@ Both flask app and the reverse proxy is hosted in Azure vm.
 5. Run the docker container with bind mount attached to `blob_reader_app`.
 
 ```console
-#vm> cd mle-cloud-training/
+#vm> cd mle-cloud-fundamentals/
 #vm> sudo docker run -d -p 80:80 -v $PWD/blob_reader_app:/app flask-nginx:v1
 ```
 
 Then the flask app will be served in port 80 in the ip address of the vm.
+
+## Billing info for resources created
+
+![billing](billing_info_sarath.png)
+
 
