@@ -27,7 +27,7 @@ Both flask app and the reverse proxy is hosted in Azure vm.
 4. Clone(or copy) the repository.
 
 ```console
-#vm> git clone git@github.com:sarath-srinivas/mle-cloud-training.git
+#vm> git clone https://github.com/sarath-srinivas/mle-cloud-fundamentals.git
 ```
 
 5. Add credentials to `blob_reader_app/secrets.json`.
